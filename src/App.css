@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+.query-container {
+  width: 350px;
+  flex: 0 0 350px;
+  background-color: antiquewhite;
+  border-right: 1px solid rgb(201, 172, 6);
+  overflow-y: auto;
+}
+.map-container {
+  flex: 1 1 auto;
+  background-color: rgb(167, 157, 71);
+  border-left: 1px solid rgb(77, 99, 38);
+  height: 100%;
+  width: 100%;
+}
+section {
+  margin: 40px 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 40px;
+}
+
+h1,
+h2 {
+  margin-bottom: 2px;
+}
+p {
+  margin: 0;
+}
+
+.custom-marker {
+  background: transparent !important;
+  border: none !important;
+}
