@@ -47,19 +47,19 @@ const locations = [
 ]
 
 const kirbyIcon = L.icon({
-  iconUrl: './assets/kirbyMarker.png',
+  iconUrl: './kirbyMarker.png',
   iconSize: [60, 60],  
   iconAnchor: [30, 50], 
   popupAnchor: [0, -60] 
 });
 const FusionIcon = L.icon({
-  iconUrl: './assets/Fusion.jpg',
+  iconUrl: './Fusion.jpg',
   iconSize: [60, 30],  
   iconAnchor: [30, 50], 
   popupAnchor: [0, -60] 
 });
 const kirbyIconGreen = L.icon({
-  iconUrl: './assets/kirbyMarkerGreen.png',
+  iconUrl: './kirbyMarkerGreen.png',
   iconSize: [60, 60],  
   iconAnchor: [30, 50], 
   popupAnchor: [0, -60] 
